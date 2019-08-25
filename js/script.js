@@ -7,12 +7,12 @@ const titleClickHandler = function(event){
     /* remove class 'active' from all article links  */
 const activeLinks = document.querySelectorAll('.titles a.active');
 for(let activeLink of activeLinks){
-  activeLink.classList.remove('active');
-  console.log('class active removed');
-  console.log(activeLink);
+    activeLink.classList.remove('active');
+    console.log('class active removed');
+    console.log(activeLink);
 }
     /* add class 'active' to the clicked link */
-    clickedElement.classList.add('active');
+clickedElement.classList.add('active');
     console.log(clickedElement);
     console.log('clickedElement:', clickedElement); 
     /* remove class 'active' from all articles */
