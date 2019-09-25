@@ -110,21 +110,31 @@ body {
 
 .tag-size-1 {
   font-size: 14px;
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .tag-size-2 {
-  font-size: 20px;
+  font-size: 24px;
+  color: navy;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .tag-size-3 {
-  font-size: 23px;
+  font-size: 30px;
+  color: brown;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .tag-size-4 {
-  font-size: 26px;
+  font-size: 36px;
+  color: green;
+  font-family: courier;
 }
 
 .tag-size-5 {
-  font-size: 32px;
+  font-size: 54px;
+  color: violet;
+  font-family: tahoma;
 }
 /*# sourceMappingURL=style.css.map */

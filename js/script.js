@@ -123,7 +123,7 @@
     let allTagsHTML = '';
     /* START LOOP: for each tag: */
     for(let tag in allTags) {
-      const tagLinkHTML = '<a href="#tag-' + tag + '" class="' + calculateTagClass(allTags[tag], tagsParams) + '">' + tag + '</a> '
+      const tagLinkHTML = '<li><a href="#tag-' + tag + '" class="' + calculateTagClass(allTags[tag], tagsParams) + '">' + tag + '</a> </li>'
       allTagsHTML += tagLinkHTML;
     /* END LOOP: for each tag: */
     }
