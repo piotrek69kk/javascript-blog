@@ -44,7 +44,6 @@
     /* remove contents of titleList */  
     /* titleList.innerHTML = ' '; */
     const articles = document.querySelectorAll(optArticleSelector + customSelector);
-    console.log('articles:', articles)
     let html = ' ';
     /* for each article */
     for(let article of articles) {
