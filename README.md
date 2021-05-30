@@ -1,1 +1,1 @@
-https://piotrek69kk.github.io/javascript-blog/
+https://pkadl.github.io/javascript-blog/
